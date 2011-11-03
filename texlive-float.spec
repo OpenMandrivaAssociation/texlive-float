@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/float
+# catalog-date 2009-09-26 09:33:53 +0200
+# catalog-license lppl
+# catalog-version 1.3d
 Name:		texlive-float
 Version:	1.3d
 Release:	1
@@ -48,6 +54,7 @@ package. You can select this as automatic default with
 #- source
 %doc %{_texmfdistdir}/source/latex/float/float.dtx
 %doc %{_texmfdistdir}/source/latex/float/float.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ package. You can select this as automatic default with
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
