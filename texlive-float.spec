@@ -6,7 +6,7 @@
 # catalog-version 1.3d
 Name:		texlive-float
 Version:	1.3d
-Release:	5
+Release:	6
 Summary:	Improved interface for floating objects
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/float
