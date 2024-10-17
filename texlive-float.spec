@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Improved interface for floating objects
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/float
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/float
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/float.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/float.doc.r%{version}.tar.xz
